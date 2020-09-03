@@ -1,0 +1,22 @@
+{
+  "name": "react-native-flatlist-selector",
+  "version": "0.1.2",
+  "description": "Flatlist With Highlight Selection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "selectable",
+    "flatlist"
+  ],
+  "author": "Kite",
+  "license": "ISC",
+  "devDependencies": {
+    "metro-react-native-babel-preset": "^0.63.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20",
+    "prop-types": "^15.7.2"
+  }
+}
