@@ -1,5 +1,3 @@
-<img src="images/logo_full.png" width="100%"/>
-
 [![NPM version](http://img.shields.io/npm/v/react-native-flatlist-selector.svg?style=flat-square)](http://npmjs.org/package/react-native-flatlist-selector)
 [![npm](https://img.shields.io/npm/dy/react-native-flatlist-selector?style=flat-square)](http://npmjs.org/package/react-native-flatlist-selector)
 [![Package Quality](https://npm.packagequality.com/shield/react-native-flatlist-selector.svg?style=flat-square)](https://packagequality.com/#?package=react-native-flatlist-selector)
