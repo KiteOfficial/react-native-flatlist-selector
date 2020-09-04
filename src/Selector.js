@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { FlatList, TouchableOpacity, View, Text } from 'react-native'
+import { FlatList, TouchableOpacity, View, Text, FlatListProps } from 'react-native'
 import PropTypes from 'prop-types'
 
 class Selector extends Component {
@@ -43,6 +43,7 @@ class Selector extends Component {
     } = this.props
     return (
       <FlatList
+        {...this.props}
         data={this.data}
         extraData={this.state}
         renderItem={this.renderItem}

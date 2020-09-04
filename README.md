@@ -56,7 +56,6 @@ class Main extends Component {
 
   getIndex = (selectedIndex) => {
     this.setState({ selectedIndex: selectedIndex })
-    console.log(selectedIndex)
   }
   render() {
     return (
@@ -64,7 +63,6 @@ class Main extends Component {
         <Text>Selected Index: {this.state.selectedIndex} </Text>
         <Selector
           multiple={true}
-          numColumns={2}
           selectedIndex={this.getIndex}
           data={this.data}
           renderItem={(item, index) => (
