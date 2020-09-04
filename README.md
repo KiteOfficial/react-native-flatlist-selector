@@ -62,7 +62,6 @@ class Main extends Component {
         <Text>Selected Index: {this.state.selectedIndex} </Text>
         <Selector
           multiple={true}
-          numColumns={2}
           selectedIndex={this.getIndex}
           data={this.data}
           renderItem={(item, index) => (
