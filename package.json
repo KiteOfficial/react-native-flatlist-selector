@@ -1,6 +1,6 @@
 {
   "name": "react-native-flatlist-selector",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Flatlist With Highlight Selection",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
     "selectable",
     "flatlist"
   ],
-  "author": "Kite",
+  "author": "Kite <sirdewong@gmail.com>",
   "license": "ISC",
   "devDependencies": {
     "babel-plugin-module-resolver": "^4.0.0",
@@ -28,6 +28,5 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
-  "readmeFilename": "README.md",
-  "author": "Kite <sirdewong@gmail.com>"
+  "readmeFilename": "README.md"
 }
