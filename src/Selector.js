@@ -17,7 +17,7 @@ class Selector extends Component {
       index == id ? item.active = !item.active : item
       item.active == true ? selectedIndex.push(index) : selectedIndex.slice(index, 1)
     })
-    this.props.selectedIndex(selectedIndex)
+    this.props.getSelectedIndex(selectedIndex)
     this.setState({ data: this.state.data, selectedIndex: selectedIndex })
   }
 
