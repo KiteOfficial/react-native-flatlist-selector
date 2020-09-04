@@ -1,6 +1,6 @@
 {
   "name": "react-native-flatlist-selector",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Flatlist With Highlight Selection",
   "main": "index.js",
   "scripts": {
