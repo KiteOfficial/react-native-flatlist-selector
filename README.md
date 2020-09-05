@@ -97,7 +97,7 @@ Check the "[Props List](PROPS.md)" file to have the complete list of component p
 | `unselectedColor`   | Higlight for unselected Item                                                            | String           | `transparent` |                                   |
 | `getSelectedIndex`  | Get selected index.                                                                     | Function         |               |                                   |
 | `renderItem`        | Component to be rendered                                                                | Function.        |               |                                   |
-
+| `Flatlist Props`    | All Flatlist Props are accepted                                                         |                  |               |                                   |
 ## 🤔 How to contribute
 
 Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/KiteOfficial/react-native-flatlist-selector/issues).
