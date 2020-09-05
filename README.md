@@ -89,15 +89,17 @@ Check the "[Props List](PROPS.md)" file to have the complete list of component p
 
 ### Props
 
-| Property            | Description                                                                             | Type             | Default.      | Note                              |
-| ------------------- | --------------------------------------------------------------------------------------- | ---------------- | ------------- | --------------------------------- |
-| `multiple`          | Either multiple selection or single                                                     | Boolean          | `false`       |                                   |
-| `data`              | Array of data to be render.                                                             | Array            |               | Only 2D array is acceptable       |
-| `selectedColor`     | Higlight for selected Item                                                              | String           | `#3535356E`   |                                   |
-| `unselectedColor`   | Higlight for unselected Item                                                            | String           | `transparent` |                                   |
-| `getSelectedIndex`  | Get selected index.                                                                     | Function         |               |                                   |
-| `renderItem`        | Component to be rendered                                                                | Function.        |               |                                   |
-| `Flatlist Props`    | All Flatlist Props are accepted                                                         |                  |               |                                   |
+| Property            | Description                                                                             | Type             | Default.      | Note                               |
+| ------------------- | --------------------------------------------------------------------------------------- | ---------------- | ------------- | ---------------------------------- |
+| `multiple`          | Either multiple selection or single                                                     | Boolean          | `false`       |                                    |
+| `data`              | Array of data to be render.                                                             | Array            |               | Only 2D array is acceptable        |
+| `selectedColor`     | Higlight for selected Item                                                              | String           | `#3535356E`   |                                    |
+| `unselectedColor`   | Higlight for unselected Item                                                            | String           | `transparent` |                                    |
+| `selectedIndex`     | Default selected item                                                                   | Int, Array       |               | Int for single, Array for multiple |
+| `getSelectedIndex`  | Get selected index.                                                                     | Function         |               |                                    |
+| `renderItem`        | Component to be rendered                                                                | Function.        |               |                                    |
+| `max`               | Set max limit for multiple                                                              | Int              |               | Multiple only                      |
+| `Flatlist Props`    | All Flatlist Props are accepted                                                         |                  |               |                                    |
 ## 🤔 How to contribute
 
 Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/KiteOfficial/react-native-flatlist-selector/issues).

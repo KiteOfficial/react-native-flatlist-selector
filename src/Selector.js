@@ -10,6 +10,35 @@ class Selector extends Component {
     selectedIndex: []
   }
 
+  componentDidMount = () => {
+    const {
+      selectedIndex = [],
+      multiple
+    } = this.props
+    let setIndex = undefined
+    let stopper = true
+    this.state.data.map((item, index) => {
+      if (Array.isArray(selectedIndex)) {
+        selectedIndex.map((u, i) => {
+          if (index == u && stopper) {
+            item.active = true
+            if (multiple) {
+              stopper = true
+            } else {
+              stopper = false
+            }
+          }
+        })
+      } else {
+        if (index == selectedIndex) {
+          item.active = true
+        }
+      }
+    })
+    this.props.getSelectedIndex(selectedIndex)
+    this.setState({ data: this.state.data })
+  }
+
   selection = (id) => {
     let selectedIndex = []
     this.state.data.map((item, index) => {
@@ -41,6 +70,7 @@ class Selector extends Component {
   render() {
     const {
     } = this.props
+
     return (
       <FlatList
         {...this.props}
