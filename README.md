@@ -98,7 +98,6 @@ Check the "[Props List](PROPS.md)" file to have the complete list of component p
 | `selectedIndex`     | Default selected item                                                                   | Int, Array       |               | Int for single, Array for multiple |
 | `getSelectedIndex`  | Get selected index.                                                                     | Function         |               |                                    |
 | `renderItem`        | Component to be rendered                                                                | Function.        |               |                                    |
-<!-- | `max`               | Set max limit for multiple                                                              | Int              |               | Multiple only                      | -->
 | `Flatlist Props`    | All Flatlist Props are accepted                                                         |                  |               |                                    |
 ## 🤔 How to contribute
 
