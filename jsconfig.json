@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "src/*": [
+        "./src/*"
+      ],
+      "assets/*": [
+        "./src/assets/*"
+      ],
+      "images/*": [
+        "./src/assets/images/*"
+      ],
+      "json/*": [
+        "./src/assets/json/*"
+      ],
+      "screens/*": [
+        "./src/Screens/*"
+      ],
+      "underscore": [
+        "lodash"
+      ]
+    }
+  }
+}

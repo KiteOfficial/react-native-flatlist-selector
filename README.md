@@ -17,6 +17,8 @@ A Selectable Flatlist which you can Highlight a selected item
 
 _Tested with: Android, iOS
 
+This project is so many more to improve, please raise an suggestions in [ISSUES](https://github.com/KiteOfficial/react-native-flatlist-selector/issues). It will great help not for me but for react-native developer.
+
 ## 📖 Install
 
 Install the library from npm just running one of the following command lines:
@@ -101,7 +103,7 @@ Check the "[Props List](PROPS.md)" file to have the complete list of component p
 | `Flatlist Props`    | All Flatlist Props are accepted                                                         |                  |               |                                    |
 ## 🤔 How to contribute
 
-Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/KiteOfficial/react-native-flatlist-selector/issues).
+Having any suggestions on your mind? Found a bug? Don't shy to share in [ISSUES](https://github.com/KiteOfficial/react-native-flatlist-selector/issues).
 Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
 
 <p align="center">
